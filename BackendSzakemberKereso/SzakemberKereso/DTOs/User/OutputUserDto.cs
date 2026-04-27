@@ -1,0 +1,11 @@
+﻿namespace SzakemberKereso.DTOs.User
+{
+    public class OutputUserDto
+    {
+        public string Email { get; set; } = string.Empty;
+        public string FirstName { get; set; } = string.Empty;
+        public string LastName { get; set; } = string.Empty;
+        public string? PhoneNumber { get; set; }
+        public string[] Roles { get; set; } = Array.Empty<string>();
+    }
+}
